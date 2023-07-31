@@ -1,0 +1,23 @@
+.selectable > .v-input__details {
+  display: none !important;
+}
+
+.v-expansion-panel-title__overlay,
+.v-expansion-panel-title--active:hover > .v-expansion-panel-title__overlay {
+  opacity: 0 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .c-tool .v-toolbar__content {
+    height: 100% !important;
+    margin: 10px 0;
+    flex-direction: column;
+  }
+  .c-tool .v-toolbar__content > div {
+    width: 100%;
+  }
+  .c-tool .v-toolbar__content > .sorted {
+    margin: 10px 0;
+  }
+}/*# sourceMappingURL=main.css.map */
