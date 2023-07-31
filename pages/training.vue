@@ -2,7 +2,6 @@
 definePageMeta({ title: 'Training' })
 
 const { data } = await useLazyFetch('/api/course')
-// console.log(data.value.courses)
 const model = ref(85)
 const completed = ref(100)
 const isCompleted = ref(['success'])

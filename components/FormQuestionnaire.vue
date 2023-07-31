@@ -54,7 +54,6 @@ const onAnswer = () => {
     ((counter.value) / props.course.total_question) *
     100
   ).toFixed(1);
-  console.log("result: ", result.value);
 };
 </script>
 

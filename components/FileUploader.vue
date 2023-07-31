@@ -19,8 +19,6 @@ const onButtonClick = () => {
 
 const onFileChanged = (e) => {
   selectedFile.value = e.target.files[0]
-  // do something
-  console.log(selectedFile.value)
 }
 
 </script>
