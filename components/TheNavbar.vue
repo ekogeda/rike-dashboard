@@ -37,12 +37,8 @@ const menuItems = ref([
 
     <v-spacer></v-spacer>
 
-    <v-btn :color="$vuetify.theme.name == 'darkBlue' ? 'yellow darken-3' : ''" size="small" elevation="1"
-      @click="toggleTheme">
-      <!-- <v-icon>
-        {{ $vuetify.theme.name == 'darkBlue' ? 'mdi-weather-night' : 'mdi-weather-sunny' }}
-      </v-icon> -->
-      <v-icon>mdi-weather-night</v-icon>
+    <v-btn :color="$vuetify.theme.name == 'darkBlue' ? 'yellow darken-3' : ''" :icon="$vuetify.theme.name == 'darkBlue' ? 'mdi-weather-night' : 'mdi-weather-sunny'
+      " size="small" elevation="1" @click="toggleTheme">
     </v-btn>
 
     <v-toolbar-items variant="text" class="hidden-xs">
