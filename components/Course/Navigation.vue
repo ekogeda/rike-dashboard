@@ -85,9 +85,10 @@ const onSubMenuClick = (params) => emit("submenu", params);
     <v-spacer />
 
     <v-btn :color="$vuetify.theme.name == 'darkBlue' ? 'yellow darken-3' : ''" size="small" @click="toggleTheme">
-      <v-icon>
+      <!-- <v-icon>
         {{ $vuetify.theme.name == 'darkBlue' ? 'mdi-weather-night' : 'mdi-weather-sunny' }}
-      </v-icon>
+      </v-icon> -->
+      <v-icon>mdi-weather-night</v-icon>
     </v-btn>
 
     <v-btn color="green" size="small" variant="flat" class="mx-2">
