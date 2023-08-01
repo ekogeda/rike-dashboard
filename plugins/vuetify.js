@@ -2,28 +2,8 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { VDataIterator } from 'vuetify/labs/VDataIterator'
-
-// const customDarkTheme = {
-//   dark: true,
-//   colors: {
-//     background: "#15202b",
-//     surface: "#15202b",
-//     primary: "#3f51b5",
-//     secondary: "#03dac6",
-//     error: "#ff5722",
-//   },
-// };
-
-// const customLightTheme = {
-//   dark: false,
-//   colors: {
-//     background: "#eee",
-//     surface: "#15202b",
-//     primary: "#3f51b5",
-//     secondary: "#00ccff",
-//     error: "#ffcc00",
-//   },
-// };
+import { aliases, mdi } from "vuetify/lib/iconsets/mdi";
+import '@mdi/font/css/materialdesignicons.css'
 
 const darkBlue = {
   dark: true,
@@ -49,6 +29,11 @@ export default defineNuxtPlugin(nuxtApp => {
   const vuetify = createVuetify({
     ssr: true,
     components: { ...components, VDataIterator },
+    icons: {
+      defaultSet: "mdi",
+      aliases,
+      sets: { mdi },
+    },
     directives,
     theme: {
       defaultTheme: "darkBlue",
