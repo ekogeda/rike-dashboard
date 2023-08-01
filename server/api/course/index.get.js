@@ -343,7 +343,7 @@ export default defineEventHandler((event) => {
                 subtitle: "Conclusion",
                 icon_checked: "mdi-check-circle-outline",
                 icon_cancel: "mdi-close-circle-outline",
-                img: '/assets/road.svg',
+                img: '/assets/done.svg',
                 text: [
                   "This concludes Module 1. You should now understand how the course and assignments are structured, what the course learning goals include and the three guiding principles to our Lean Startup Framework",
                   "You can use the menu button at the top left of the screen to review the course material if desired",
@@ -364,7 +364,7 @@ export default defineEventHandler((event) => {
         completed: 'Feb 21, 2023',
         interactive_time: 45,
         score: 65,
-        img: '/assets/road.svg',
+        img: '/assets/model.svg',
         assignment: [
           {
             completed: true,
@@ -826,7 +826,7 @@ export default defineEventHandler((event) => {
         completed: 'Feb 22, 2023',
         interactive_time: 30,
         score: 77,
-        img: '/assets/road.svg',
+        img: '/assets/work.svg',
         assignment: [
           {
             completed: false,
@@ -874,7 +874,7 @@ export default defineEventHandler((event) => {
         completed: 'Feb 23, 2023',
         interactive_time: 30,
         score: 50,
-        img: '/assets/road.svg',
+        img: '/assets/conversation.svg',
         assignment: [
           {
             completed: true,
@@ -950,7 +950,7 @@ export default defineEventHandler((event) => {
         completed: 'Feb 24, 2023',
         interactive_time: 30,
         score: 100,
-        img: '/assets/road.svg',
+        img: '/assets/conversation-2.svg',
         assignment: [
           {
             completed: true,
@@ -1093,7 +1093,7 @@ export default defineEventHandler((event) => {
         completed: 'Mar 21, 2023',
         interactive_time: 30,
         score: 77,
-        img: '/assets/road.svg',
+        img: '/assets/search.svg',
         assignment: [
           {
             completed: true,
@@ -1275,7 +1275,7 @@ export default defineEventHandler((event) => {
         completed: 'Mar 26, 2023',
         interactive_time: 30,
         score: 100,
-        img: '/assets/road.svg',
+        img: '/assets/chart.svg',
         assignment: [
           {
             completed: true,
