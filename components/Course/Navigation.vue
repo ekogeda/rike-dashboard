@@ -34,7 +34,7 @@ const onSubMenuClick = (params) => emit("submenu", params);
 </script>
 
 <template>
-  <v-navigation-drawer v-model="drawer" width="330">
+  <v-navigation-drawer v-model="drawer">
     <v-list-item class="my-3">
       <v-list-item-title class="text-capitalize text-wrap">
         <h3>{{ tem.heading }}: {{ tem.subtitle }}</h3>
@@ -47,7 +47,7 @@ const onSubMenuClick = (params) => emit("submenu", params);
       <v-list-group :value="chapter.id" v-for="chapter in tem.menu" :key="chapter.id">
         <template v-slot:activator="{ props }">
           <v-list-item v-bind="props">
-            <v-list-item-title class="text-uppercase text-wrap" style="font-size: 0.8rem">
+            <v-list-item-title class="text-uppercase text-wrap" style="font-size: 0.7rem">
               {{ chapter?.title }}
             </v-list-item-title>
           </v-list-item>
