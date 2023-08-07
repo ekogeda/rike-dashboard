@@ -37,7 +37,7 @@ const value = ref(45)
 
           <div class="py-8 px-4 grid w-100">
             <div class="c-me-3">
-              <img src="@/assets/stats.svg" class="w-100 rounded" alt="logo" />
+              <img src="/assets/stats.svg" class="w-100 rounded" alt="logo" />
             </div>
 
             <div>

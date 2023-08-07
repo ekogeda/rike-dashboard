@@ -31,7 +31,7 @@ const menuItems = ref([
 
     <v-toolbar-title>
       <v-avatar rounded="0">
-        <img src="@/assets/logo.png" loading="lazy" class="w-100" alt="logo" />
+        <img src="/assets/logo.png" loading="lazy" class="w-100" alt="logo" />
       </v-avatar>
     </v-toolbar-title>
 
