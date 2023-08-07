@@ -2,7 +2,6 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { VDataIterator } from 'vuetify/labs/VDataIterator'
-import { aliases, mdi } from "vuetify/lib/iconsets/mdi";
 
 const darkBlue = {
   dark: true,
@@ -27,13 +26,6 @@ const darkBlue = {
 export default defineNuxtPlugin(nuxtApp => {
   const vuetify = createVuetify({
     ssr: true,
-    icons: {
-      defaultSet: 'mdi',
-      aliases,
-      sets: {
-        mdi,
-      },
-    },
     components: { ...components, VDataIterator },
     directives,
     theme: {
