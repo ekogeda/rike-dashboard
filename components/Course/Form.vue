@@ -5,7 +5,7 @@ const stepper = inject('stepped')
 <template>
   <template v-if="stepper?.title">
     <v-card class="elevation-0 my-8">
-      <v-card-title>
+      <v-card-title class="text-wrap">
         <h1 class="text-green">{{ stepper?.title.includes(':') ? stepper?.title.split(': ')[1] : stepper?.title }}</h1>
       </v-card-title>
       <v-card-subtitle>
