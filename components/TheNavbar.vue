@@ -88,6 +88,5 @@ const menuItems = ref([
 
 .router-link-exact-active {
   color: #91ffb7 !important;
-  // color: #03dac6 !important;
 }
 </style>
