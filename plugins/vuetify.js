@@ -3,6 +3,9 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { VDataIterator } from 'vuetify/labs/VDataIterator'
 
+import '@mdi/font/css/materialdesignicons.css'
+import 'vuetify/styles'
+
 const darkBlue = {
   dark: true,
   variables: {}, // ✅ this property is required to avoid Vuetify crash
